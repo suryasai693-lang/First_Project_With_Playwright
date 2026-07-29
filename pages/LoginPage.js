@@ -12,7 +12,7 @@ class LoginPage extends BasePage {
 
     this.username = page.locator('#user-name');
     this.password = page.locator('#password');
-    this.loginBtn = page.locator('#login-button');
+    this.loginButton = page.locator('#login-button');
   }
 
   async login(user, pass) {
