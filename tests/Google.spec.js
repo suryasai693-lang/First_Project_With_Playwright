@@ -1,6 +1,6 @@
 const {test, expect} = require('@playwright/test');
 
-const GooglePage = require('../node_modules/pages/GooglePage.spec');
+const GooglePage = require('../pages/GooglePage.spec');
 
 test ('Verify Google Title', async ({page}) =>{
 
